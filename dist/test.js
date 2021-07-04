@@ -1,4 +1,4 @@
-const { BasicAuth, ApiHost, MessagingApi } = require("./dist/index.js");
+const { BasicAuth, ApiHost, MessagingApi } = require("index.js");
 
 async function main() {
     const auth = new BasicAuth("clientId", "clientSecret");
