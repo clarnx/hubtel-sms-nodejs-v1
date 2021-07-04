@@ -1,0 +1,26 @@
+{
+    "name": "hubtel-sms-nodejs",
+    "version": "1.0.0",
+    "description": "An open source Node.js SDK that allows you to access the Hubtel Programmable SMS API from your Node.js application.",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "prepublish": "npm run build",
+        "build": "ttsc --p ./tsconfig.json"
+    },
+    "keywords": [
+        "hubtel",
+        "programmbale sms api"
+    ],
+    "author": "clarnx",
+    "license": "MIT",
+    "devDependencies": {
+        "tsconfig-paths": "^3.9.0",
+        "ttypescript": "^1.5.12",
+        "typescript": "^4.3.5"
+    },
+    "dependencies": {
+        "@types/node": "^15.12.5",
+        "typescript-transform-paths": "^3.0.1"
+    }
+}
