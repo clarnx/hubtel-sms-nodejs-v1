@@ -2,7 +2,7 @@
 An open source Node.js SDK that allows you to access the Hubtel Programmable SMS API from your Node.js application.
 
 # Demo
-```
+```node
 import { ServerResponse as HttpResponse} from "http";
 import BasicAuth from "@/Hubtel/BasicAuth";
 import ApiHost from "@/Hubtel/ApiHost";
